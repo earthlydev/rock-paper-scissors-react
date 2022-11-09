@@ -1,5 +1,6 @@
 import './App.css';
 import { FaHandPaper, FaHandRock, FaHandScissors } from 'react-icons/fa';
+import { imgs } from './images';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <div className="container">
           <div className="player">
             <div>You: 0</div>
-            <div></div>
+            <div><img src={ imgs.rock.src } alt={ imgs.paper.title } /></div>
           </div>
           <div className="player">
             <div>Bot: 0</div>
