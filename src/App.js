@@ -14,7 +14,7 @@ function App() {
           </div>
           <div className="player">
             <div>Bot: 0</div>
-            <div></div>
+            <div><img src={ imgs.botPaper.src } alt={ imgs.botPaper.title } /></div>
           </div>
         </div>
         <div>
