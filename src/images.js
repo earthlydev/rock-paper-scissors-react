@@ -17,10 +17,10 @@ export const imgs = {
     },
     botPaper: {
         title: 'bot paper',
-        src: require('.//assets/paper.png')
+        src: require('.//assets/bot-paper.png')
     },
     botScissors: {
         title: 'bot scissors',
-        src: require('.//assets/scissors.png')
+        src: require('.//assets/bot-scissors.png')
     }
 }
